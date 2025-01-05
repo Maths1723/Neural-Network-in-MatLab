@@ -18,13 +18,13 @@ This repository contains a basic implementation of a neural network using MATLAB
 
 ### Input Data
 
-X, where each data is a column vector. Ex: X=[x1',x2',...,xn']
-Y, labels, again as where each label is a column vector.
+X, where each data is a column vector. Ex: X=[x1',x2',...,xn'].  
+Y, labels, again as where each label is a column vector.  
 
 
 ### Training parameters setup
-alfa = 5e-2;    % Learning rate
-maxIter = 1000000;  % Maximum number of iterations
+alfa = 5e-2;    % Learning rate  
+maxIter = 1000000;  % Maximum number of iterations  
 batch_size = 1;  % Batch size for SGD (set to 1 for stochastic training)
 
 
